@@ -14,7 +14,7 @@ def run_descriptive_analysis():
     output_dir = script_dir
     
     # 数据路径 (相对于脚本所在目录)
-    file_path = os.path.join(script_dir, '..', 'data', '新汇总.xlsx')
+    file_path = r'd:\HuaweiMoveData\Users\32874\Desktop\WuChangYu\data\新汇总.xlsx'
     
     if not os.path.exists(file_path):
         print(f"错误: 找不到数据文件 {file_path}")
