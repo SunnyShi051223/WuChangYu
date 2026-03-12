@@ -12,7 +12,7 @@ plt.rcParams['axes.unicode_minus'] = False
 
 def run_experimental_analysis():
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(script_dir, '..', 'data', '实验 .xlsx')
+    file_path = os.path.join(script_dir, '..', 'data', '新汇总.xlsx')
     persona_path = os.path.join(script_dir, '..', '消费者画像分析', 'clustered_customers.xlsx')
     
     if not os.path.exists(file_path):

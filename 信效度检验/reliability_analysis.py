@@ -22,8 +22,8 @@ def cronbach_alpha(df):
 def run_reliability_validity():
     # 数据路径调整：尝试从根目录或当前目录寻找
     path_options = [
-        os.path.join('data', '汇总版_已清洗数值化.xlsx'),
-        os.path.join('..', 'data', '汇总版_已清洗数值化.xlsx')
+        os.path.join('data', '新汇总.xlsx'),
+        os.path.join('..', 'data', '新汇总.xlsx')
     ]
     
     file_path = None
